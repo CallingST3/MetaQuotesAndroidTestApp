@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ==================== COMMON =========================================== -->
+
+    <style name="Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchWidth">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="SpaceWeight1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- ==================== CONTAINERS ======================================================= -->
+
+    <style name="LinearVrtMatch" parent="Match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearVrtWrap" parent="Wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearVrtMatchWidth" parent="MatchWidth">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="LinearHrzMatchWidth" parent="MatchWidth">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- ==================== TITLES ======================================================= -->
+
+    <style name="Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:lineSpacingExtra">6dp</item>
+    </style>
+</resources>

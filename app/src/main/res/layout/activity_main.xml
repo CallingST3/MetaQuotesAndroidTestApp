@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Match"
+    tools:context=".ui.activities.MainActivity">
+
+    <include layout="@layout/content_main" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MetaQuotesAndroidTestApp</string>
+
+    <string name="main_screen_label">Screen label</string>
+    <string name="main_screen_title_url">Введите Url файла</string>
+    <string name="main_screen_edit_url_hint">https://filesamples.com/sample3.txt</string>
+    <string name="main_screen_title_filter">Введите фильтр</string>
+    <string name="main_screen_edit_filter_hint">*hello*</string>
+    <string name="main_screen_button_start">Старт</string>
+    <string name="main_screen_button_stop">Стоп</string>
+    <string name="main_screen_error_text_empty">Не заполнены обязательные поля</string>
+    <string name="main_screen_copy_to_clipboard">Копировать</string>
+    <string name="main_screen_copied_to_clipboard">Текст скопирован</string>
+    <string name="main_screen_error_data">Произошла ошибка</string>
+</resources>

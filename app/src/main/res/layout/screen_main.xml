@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearVrtMatch"
+    android:padding="@dimen/screen_padding">
+
+    <TextView
+        style="@style/Title"
+        android:layout_marginTop="@dimen/item_spacing_4x"
+        android:gravity="center_horizontal"
+        android:text="@string/main_screen_title_url" />
+
+    <EditText
+        android:id="@+id/edit_url"
+        style="@style/MatchWidth"
+        android:layout_marginTop="@dimen/item_spacing_2x"
+        android:hint="@string/main_screen_edit_url_hint" />
+
+    <TextView
+        style="@style/Title"
+        android:layout_marginTop="@dimen/item_spacing_4x"
+        android:gravity="center_horizontal"
+        android:text="@string/main_screen_title_filter" />
+
+    <EditText
+        android:id="@+id/edit_filter"
+        style="@style/MatchWidth"
+        android:layout_marginTop="@dimen/item_spacing_2x"
+        android:hint="@string/main_screen_edit_filter_hint" />
+
+    <RelativeLayout
+        style="@style/MatchWidth"
+        android:layout_marginTop="@dimen/item_spacing_2x">
+
+        <Button
+            android:id="@+id/button_start"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/main_screen_button_start" />
+
+        <ProgressBar
+            android:id="@+id/loader"
+            style="@style/Wrap"
+            android:layout_toEndOf="@id/button_start"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_copy"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/main_screen_copy_to_clipboard"
+        android:visibility="invisible" />
+
+    <ListView
+        android:id="@+id/list_view"
+        style="@style/MatchWidth"
+        android:layout_marginTop="@dimen/item_spacing_2x"
+        android:choiceMode="multipleChoice" />
+
+</LinearLayout>
+
